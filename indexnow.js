@@ -146,7 +146,17 @@ async function submitUrls({ host, key, keyLocation, urlList }, retry = 0) {
   let totalUrls = 0;
   let failedDomains = [];
 
-  console.log(chalk.bgMagentaBright.bold('🚀 Welcome to the IndexNow Party CLI! 🚀'));
+  // Big banner for Creator
+  console.log(chalk.bgRedBright.whiteBright.bold(''.padEnd(50, ' ')));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ██████╗██████╗ ███████╗ ██████╗ ████████╗ █████╗ ██████╗  '));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ██╔══████╔══██╗██╔════╝██╔═══██╗╚══██╔══╝██╔══██╗██╔══██╗ '));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ██████╔██║  ██║█████╗  ██║   ██║   ██║   ███████║██████╔╝ '));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ██╔══██║██║  ██║██╔══╝  ██║   ██║   ██║   ██╔══██║██╔══██╗ '));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ██║  ██║██████╔███████╗╚██████╔╝   ██║   ██║  ██║██║  ██║ '));
+  console.log(chalk.bgRedBright.whiteBright.bold('  ╚═╝  ╚═╝╚═════╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ '));
+  console.log(chalk.bgRedBright.whiteBright.bold(''.padEnd(50, ' ')));
+  console.log(chalk.bgRedBright.whiteBright.bold('           Creator: @iamsajidjaved           '));
+  console.log(chalk.bgRedBright.whiteBright.bold(''.padEnd(50, ' ')));
   console.log(chalk.yellowBright('Let the crawling and indexing fiesta begin! 🎉🕺💃'));
   console.log(chalk.magenta('----------------------------------------------'));
 
