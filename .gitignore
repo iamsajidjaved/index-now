@@ -1,0 +1,8 @@
+node_modules/
+.env
+indexnow_submitted.log
+*.log
+.DS_Store
+*.tmp
+config.json
+*.txt

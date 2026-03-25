@@ -1,0 +1,11 @@
+{
+  "indexNowKey": "YOUR_API_KEY",
+  "keyLocation": "",
+  "engines": {
+    "bing": true,
+    "yandex": true,
+    "seznam": true,
+    "naver": false,
+    "indexnow": true
+  }
+}
